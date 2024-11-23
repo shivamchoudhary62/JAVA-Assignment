@@ -3,7 +3,7 @@ package tax;
 public class TaxCalculator {
 
     private static final double TAX_RATE = 0.15;
-    private static final double HOURLY_RATE = 12.0;
+    static final double HOURLY_RATE = 12.0;
 
     public static double calculateTax(double grossPay) {
         return grossPay * TAX_RATE;
